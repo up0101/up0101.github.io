@@ -25,7 +25,9 @@ jobs:
         uses: actions/configure-pages@v2
       - run: |
           mkdir out
-          pandoc index.md -o out/index.html
+          for f in *.md;
+            do pandoc "$f" -s -o out/"${f%.*}".html;
+          done
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
