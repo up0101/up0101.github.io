@@ -1,0 +1,18 @@
+image: alpine/edge
+oauth: pages.sr.ht/PAGES:RW
+packages:
+- hut
+- pandoc
+tasks:
+- build: |
+    mkdir build/
+    cd add512.me/
+
+    for f in *.md;
+      do pandoc "$f" -s -o ~/build/"${f%.*}".html;
+    done
+- package: |
+    cd ~/build/
+    tar -cvz . > ~/site.tar.gz
+- upload: |
+    hut pages publish -d add512.srht.site site.tar.gz
