@@ -1,12 +1,14 @@
-image: alpine/edge
+image: nixos/latest
 oauth: pages.sr.ht/PAGES:RW
 packages:
-- hut
-- pandoc
+- nixos.hut
+- nixos.pandoc
 tasks:
 - build: |
     mkdir build/
     cd add512.me/
+
+    ./Index.hs > index.md
 
     for f in *.md;
       do pandoc "$f" -s -o ~/build/"${f%.*}".html;
