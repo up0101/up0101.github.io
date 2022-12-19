@@ -138,7 +138,9 @@ main = withHandleFromFdNum 4 \feedIoHandle -> do
   postHtmls <-
     let md2html md =
           Pandoc.runIOorExplode $
-            Pandoc.readMarkdown Pandoc.def md
+            Pandoc.readMarkdown
+              (Pandoc.def {Pandoc.readerExtensions = Pandoc.pandocExtensions})
+              md
               >>= Pandoc.writeHtml5String Pandoc.def
      in md2html `mapM` (T.decodeUtf8 <$> postContents)
   let posts =
