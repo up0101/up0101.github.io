@@ -31,6 +31,10 @@ I notice many also do "interesting" things like extreme sports, travel, DIY, fan
 
 I also notice I devalue people who make progress in specific "sandbox" areas devoid of wide recognition/status/money: that's most purists (see also atheism, open-source software).
 
+## Noticing
+
+You often *see* a HGP as they enter the room. It's the same kind of aura or feel that you sense when, say, a restaurant's owner is serving guests in line with the other waiters. It's easy to pick them out.
+
 ## Not necessarily nice
 
 Nothing said above suggests a HGP ought be nice. In fact, a sociopath CEO fits the bill exactly.
@@ -43,4 +47,4 @@ One can say I avoid low-grade people since they are uninteresting and/or drag me
 
 So:
 
-**tl;dr A high grade person is literally a high grade executive**.
+**A high grade person is literally a high grade executive**.
