@@ -9,7 +9,7 @@ I habitually use the concept of a "high grade person" (HGP) to describe my prefe
 
 ## Understanding
 
-A necessary but not sufficient characteristic of a high grade person is they understand everything you say (maybe more).
+A necessary characteristic of a high grade person is they understand everything you say, maybe more.
 
 This means you quickly build a structure of mutual understanding and get to talking (doing) interesting things.
 
@@ -21,7 +21,7 @@ Speaking of inferential distance, shall you disagree, a HGP is debuggable: they 
 
 ## And progress
 
-The second chore feature is high grade people do visible impactful work.
+The second core feature is high grade people do visible impactful work.
 
 (Visible inasmuch as is useful to them. I'm only specifying this to differentiate from people nobly suffering for a cause incognito.)
 
